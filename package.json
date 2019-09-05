@@ -1,4 +1,24 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "test": "jest --coverage",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint",
+    "deploy": "gh-pages -d src/"
+  },
+  "dependencies": {
+    "editorconfig": "^0.15.3",
+    "eslint": "^6.2.1",
+    "eslint-plugin-jest": "^22.15.2",
+    "fetch": "^1.1.0",
+    "filehound": "^1.17.3",
+    "jest": "^24.9.0",
+    "markdown-link-extractor": "^1.2.1",
+    "marked": "^0.7.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "lint": "^0.7.0"
+  }
 }
