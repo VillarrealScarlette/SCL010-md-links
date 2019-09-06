@@ -106,5 +106,6 @@ const validate = (urls) => {
         resolve(arrValidate.push(argsLinks));
     })
 }
-
+//F(x) if user enter 'stats' option
+const stats = ()
 module.exports = { mdLinks };
